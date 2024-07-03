@@ -1,15 +1,15 @@
-export default function CourseGoal({
-  title,
-  description,
-}: {
+import { type ReactNode } from "react";
+
+interface CourseGoalProps {
   title: string;
-  description: string;
-}) {
+  children: ReactNode;
+}
+export default function CourseGoal({ title, children }: CourseGoalProps) {
   return (
     <article>
       <div>
         <h2>{title}</h2>
-        <p>{description}</p>
+        <p>{children}</p>
       </div>
       <button>DELETE</button>
     </article>
