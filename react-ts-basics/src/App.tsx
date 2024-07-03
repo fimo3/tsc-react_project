@@ -16,7 +16,7 @@ export default function App() {
     setGoals((prevGoals) => {
       const newGoal: CourseGoal = {
         id: Math.random(),
-        title: "Megaloblattai",
+        title: "Megaloblatta",
         description: "obtain legendari m. longipennis",
       };
       return [...prevGoals, newGoal];
