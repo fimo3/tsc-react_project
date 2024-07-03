@@ -17,7 +17,7 @@ export default function App() {
       const newGoal: CourseGoal = {
         id: Math.random(),
         title: "Megaloblatta",
-        description: "obtain legendari m. longipennis",
+        description: "obtain legendary m. longipennis",
       };
       return [...prevGoals, newGoal];
     });
