@@ -1,5 +1,10 @@
 const Input = () => {
-  return <div>Input</div>;
+  return (
+    <p>
+      <label></label>
+      <input></input>
+    </p>
+  );
 };
 
 export default Input;
